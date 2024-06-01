@@ -9,7 +9,7 @@ Author: Lingling Zhang
 ```shell
 make
 ```
-
+Before executing, please decompress ‘dataset.rar’
 The option -std=c++1x should be included.
 
 ## Options
