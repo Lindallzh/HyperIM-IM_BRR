@@ -1,10 +1,5 @@
 # HyperIM
-This project implements the HyperIM and HyperIM_BRR algorithms for the following paper:
-
-- Qintian Guo, Sibo Wang, Zhewei Wei, and Ming Chen. 2020. Influence Maximization Revisited: Efficient Reverse Reachable Set Generation with Bound Tightened. In *SIGMOD*.
-
-Please cite the paper if you would like to use the code. 
-
+This project implements the HyperIM and HyperIM_BRR algorithms.
 The code is developed on the basis of the project: https://github.com/tangj90/OPIM & https://github.com/qtguo/subsim
 
 Author: Lingling Zhang 
