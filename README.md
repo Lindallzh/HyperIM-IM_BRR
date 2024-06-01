@@ -158,19 +158,3 @@ $ ./subsim -func=im -gname=facebook -seedsize=100 -eps=0.01
 $ ./subsim -func=im -gname=facebook -seedsize=100 -eps=0.01 -vanilla=1
 ```
 
-## HIST
-
-In highly influential scenarios, the average size of random RR sets is usually very large. The HIST algorithm is invoked to handle this problem.  For example, if the edge probability in the uniform setting is large, the network is likely to be highly influential. 
-
-Example
-
-```shell
-//format the input graph in the uniform setting with a high probability
-$ ./subsim -func=format -gname=facebook -pdist=uniform -pedge=0.5
-
-//influence maximization
-$ ./subsim -func=im -gname=facebook -seedsize=100 -eps=0.01 -hist=1
-```
-
- valgrind --leak-check=full --track-origins=yes  ./subsim -func=im -seedsize=100 -eps=0.01 --inputpath dataset/ --dataname  NDC-substances-full -hist=0
-
